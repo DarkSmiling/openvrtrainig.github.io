@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         alert("An unknown error occurred while obtaining location.");
                 }
             });
+            window.location.href = "index3.html";
         } else {
             alert("Your browser does not support geolocation.");
         }
