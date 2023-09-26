@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const getLocationBtn = document.getElementById("test");
+    const getLocationBtn = document.getElementsByClassName("test");
 
     getLocationBtn.addEventListener("click", function() {
         if ("geolocation" in navigator) {
